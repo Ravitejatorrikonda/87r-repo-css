@@ -1,0 +1,36 @@
+.container{
+    /* height: 600px; */
+    border: 2px solid;
+    display: flex;
+    /* justify-content:start;
+    align-items: start; */
+   /* align-items: center;
+   justify-content: center;
+    flex-direction:column-reverse; */
+    flex-wrap: wrap;
+    /* align-items: start; */
+    /* flex-direction: column; */
+    align-content: start;
+    justify-content: space-around;
+    flex-flow: wrap row;
+    background-color: black;
+}
+.child-1{
+background-color: lightblue;
+}
+.child-2{
+background-color: lightcoral;
+}
+.child-3{
+background-color: pink;
+}
+.child-4{
+background-color: lightsalmon;
+}
+.child-5{
+background-color: lightseagreen;
+}
+
+.child{
+    padding: 10px;
+}
