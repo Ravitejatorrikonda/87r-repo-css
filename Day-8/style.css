@@ -1,0 +1,50 @@
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid ;
+   
+    /* transition-property:background-color padding;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+/* body {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .container:hover{
+    background-color: lightcoral;
+    padding: 50px;
+} */
+
+/* .container>p {
+    font-size: 40px;
+    color: white;
+    opacity: 0;
+    transition:all 3s ease;
+}
+
+.container:hover>p {
+    opacity: 1;
+} */
+ .container img{
+    width: 100%;
+    display: none;
+ }
+ .btn1:hover ~ .img1{
+    display: block;
+ }
+ .btn2:hover ~ .img2{
+    display: block;
+ }
+ .btn3:hover ~.img3{
+    display: block;
+ }
