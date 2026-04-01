@@ -1,0 +1,57 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    /* transition: all 1s ease; */
+    /* transition-property: background;
+    transition-duration: 3s; */
+    /* animation-name: background;
+    animation-duration: 3s; */
+    /* animation-delay: 3s; */
+    /* animation-timing-function:ease; */
+    /* animation-iteration-count: infinite; */
+    /* animation:x 3s ease ; */
+    animation: A 3s ease;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+body {
+    height: 800px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .container:hover{ */
+/* transform: translate(100px, 200px); */
+/* transform: scale(-2); */
+/* transform: skew(80deg, 90deg); */
+/* transform: rotate(60deg, 60deg); */
+/* } */
+
+
+@keyframes A {
+    0% {
+        transform: translate(0px);
+    }
+
+    25% {
+        transform: translate(500px) rotate(360deg);
+        background-color: deeppink;
+    }
+
+    50% {
+        transform: translate(500px, 500px);
+        background-color: deepskyblue;
+    }
+
+    75% {
+        transform: translate(0px, 500px) skew(40deg);
+        background-color: brown;
+    }
+
+    100% {
+        transform: translate(0px,0px);
+    }
+}
